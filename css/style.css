@@ -1,3 +1,73 @@
+/* CSS Reset and other initial styles */
+
+/* Original code goes here */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Apply styles for screens up to 768px in width (typical smartphones) */
+
+    #navbar {
+        /* Modify styles for the navigation bar at smaller screens */
+        position: fixed;
+        top: 0;
+        background-color: black; /* Change the background color */
+        opacity: 0.8;
+    }
+
+    #navbar ul {
+        /* Adjust styles for the navigation list */
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    #navbar ul li {
+        /* Adjust list item styles */
+        margin: 10px 0;
+    }
+
+    #search {
+        /* Modify the search input styles */
+        margin: 10px 0;
+    }
+
+    /* Modify other styles for responsiveness as needed */
+
+    #home {
+        padding: 10px; /* Adjust padding for the home section */
+    }
+
+    #services .box {
+        /* Adjust box styles in the services section */
+        padding: 20px;
+    }
+
+    #client-section {
+        height: auto; /* Make the client section height adapt to content */
+    }
+
+    #contact-box form {
+        width: 100%; /* Adjust the form width for smaller screens */
+    }
+
+    /* Add more media queries and adjustments as needed */
+}
+
+@media screen and (max-width: 480px) {
+    /* Apply styles for screens up to 480px in width (smaller smartphones) */
+
+    /* Adjust styles further for smaller screens */
+
+    /* Add more specific adjustments as needed for very small screens */
+}
+
+
+
+
+
+
+
+
 /* CSS Reset */
 *{
     margin: 0;
